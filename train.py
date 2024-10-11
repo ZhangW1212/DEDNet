@@ -12,8 +12,6 @@ import random
 from vision import TwoD_Tsne, sampleCount, confuPLT
 
 seed = 2094
-# 随机样本可视化注意力系数时使用
-# seed = random.randint(0, 10000)# 2094,9477
 print('seed = {}'.format(seed))
 
 def seed_everything():
