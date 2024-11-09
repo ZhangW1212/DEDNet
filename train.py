@@ -229,7 +229,7 @@ if __name__ == '__main__':
                                           1/0.132184
                                             ])
         loss_function = MaskedNLLLoss()
-        train_loader, valid_loader, test_loader = get_MELD_loaders(valid=0.1,
+        train_loader, valid_loader, test_loader = get_MELD_loaders(valid=0.0,
                                                                      batch_size=batch_size,
                                                                     num_workers=0, windows=args.windows)
     elif args.Dataset == 'IEMOCAP':
@@ -241,7 +241,7 @@ if __name__ == '__main__':
                                         1/0.127711,
                                         1/0.252668])
         loss_function = MaskedNLLLoss(loss_weights.cuda())
-        train_loader, valid_loader, test_loader = get_IEMOCAP_loaders(valid=0.1,
+        train_loader, valid_loader, test_loader = get_IEMOCAP_loaders(valid=0.0,
                                                                       batch_size=batch_size,
                                                                       num_workers=0, windows=args.windows)
 
@@ -254,7 +254,7 @@ if __name__ == '__main__':
                                       1 / 0.0177,
                                       1 / 0.0112])
         loss_function = MaskedNLLLoss()
-        train_loader, valid_loader, test_loader = get_DailyDialog_loaders(valid=0.1,
+        train_loader, valid_loader, test_loader = get_DailyDialog_loaders(valid=0.0,
                                                                       batch_size=batch_size,
                                                                       num_workers=0, windows=args.windows)
 
