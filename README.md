@@ -13,4 +13,3 @@ If you find this architecture or toolbox useful then please cite this paper:
  ```
 Wang Y, Zhang W, Liu K, et al. Dynamic emotion-dependent network with relational subgraph interaction for multimodal emotion recognition[J]. IEEE Transactions on Affective Computing, 2024.
 ```
-and here is the Bibtex version:
