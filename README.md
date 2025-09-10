@@ -4,6 +4,7 @@
 The proposed DEDNet network comprises four main components: Feature Extractor,
 Audio-Visual Modality Encoder, Relationship Subgraph Interaction Module, and Emotion Classifier. Firstly, three distinct feature extractors are employed to obtain the initial features at the utterance level. Subsequently, for textual modality information, we design the Relationship Interaction Subgraph Module to acquire features containing inter-speaker emotional dependency and intra-speaker emotional dependency. Regarding the Audio-Visual Encoder, we utilize a Transformer along with speaker embedding to obtain modality features incorporating speaker information. Finally, by integrating the fused multimodal features with each unimodal feature, we construct an Emotion Classifier and Auxiliary Fusion Loss Function to achieve multimodal emotion classification.
 ## Result
+
 The overall classification results for DEDNet and other competing architectures are as follows:
 <img width="1652" height="851" alt="image" src="https://github.com/user-attachments/assets/66a38015-b5ed-49af-8e48-cb9ae57d4b6d" />
 
