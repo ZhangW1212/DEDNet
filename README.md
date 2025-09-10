@@ -6,8 +6,10 @@ Audio-Visual Modality Encoder, Relationship Subgraph Interaction Module, and Emo
 ## Result
 The overall classification results for DEDNet and other competing architectures are as follows:
 <img width="1652" height="851" alt="image" src="https://github.com/user-attachments/assets/66a38015-b5ed-49af-8e48-cb9ae57d4b6d" />
+
 ## Cite
 If you find this architecture or toolbox useful then please cite this paper:
-'''Wang Y, Zhang W, Liu K, et al. Dynamic emotion-dependent network with relational subgraph interaction for multimodal emotion recognition[J]. IEEE Transactions on Affective Computing, 2024.
+'''
+Wang Y, Zhang W, Liu K, et al. Dynamic emotion-dependent network with relational subgraph interaction for multimodal emotion recognition[J]. IEEE Transactions on Affective Computing, 2024.
 '''
 and here is the Bibtex version:
